@@ -50,7 +50,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', '5461187941:AAGd6E6BUHZYQPcliCmY5V9Pi_37_WS
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
 PICS = (environ.get('PICS', 'https://telegra.ph/file/4450c7c8a397856cbc0d2.jpg https://telegra.ph/file/72f546d34d9aa825b9dec.jpg https://telegra.ph/file/2e3ef4779d153d6eac5be.jpg https://telegra.ph/file/bf2d9ecb8c06464e70e56.jpg https://telegra.ph/file/1e3a15ca6f9c38a728a3e.jpg https://telegra.ph/file/8601a64b75ed9202a6fdc.jpg https://telegra.ph/file/b847453762e656c1b84e5.jpg https://telegra.ph/file/ef06c9d5b78766dfc40cb.jpg https://telegra.ph/file/de3f6cff2b7f1d5df526b.jpg https://telegra.ph/file/1c0c8df531fcec1a2a7ce.jpg https://telegra.ph/file/42ae6ccf371896e19fbb2.jpg https://telegra.ph/file/5b3b62b68e9e75857b357.jpg https://telegra.ph/file/f98a3eb8a3ce0dc6c37c1.jpg')).split()
-NOR_IMG = environ.get('NOR_IMG', "https://telegra.ph/file/5786ba704fd0015d537c4.jpg")
+NOR_IMG = environ.get('NOR_IMG', "https://graph.org/Alpha-10-26-7")
 SPELL_IMG = environ.get('SPELL_IMG',"https://telegra.ph/file/b58f576fed14cd645d2cf.jpg")
 
 CLOSE_IMG = (environ.get('CLOSE_IMG', 'https://telegra.ph/file/6e9dd701bac49632cf79a.jpg https://telegra.ph/file/998d2b84e1411ed5189e3.jpg https://telegra.ph/file/c199babd469011d07f139.jpg https://telegra.ph/file/31b6d3d2c70bbe52b5300.jpg https://telegra.ph/file/77744524fbb6305298d45.jpg https://telegra.ph/file/9d79d990674166a2a2364.jpg')).split()
@@ -86,8 +86,8 @@ MONGO_URL = os.environ.get('MONGO_URL', "")
 DOWNLOAD_LOCATION = environ.get("DOWNLOAD_LOCATION", "./DOWNLOADS/AudioBoT/")
 
 #url links
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'http://mdisk.pro')
-SHORTLINK_API = environ.get('SHORTLINK_API', '87d7b56c8b318909bf113ed56a9783dcc67ff49a')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', '0')
+SHORTLINK_API = environ.get('SHORTLINK_API', '0')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
 
 #Auto approve 
@@ -115,13 +115,13 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 PORT = os.environ.get("PORT", "8080")
 MAX_BTN = int(environ.get('MAX_BTN', "10"))
-S_GROUP = environ.get('S_GROUP',"https://t.me/MLZ_BOTZ_SUPPORT")
-MAIN_CHANNEL = environ.get('MAIN_CHANNEL',"https://t.me/MLZ_BOTZ")
+S_GROUP = environ.get('S_GROUP',"https://t.me/filims_18")
+MAIN_CHANNEL = environ.get('MAIN_CHANNEL',"https://t.me/filims_18")
 FILE_FORWARD = environ.get('FILE_FORWARD',"https://t.me/fileschannellls")
 MSG_ALRT = environ.get('MSG_ALRT', '𝑪𝑯𝑬𝑪𝑲 & 𝑻𝑹𝒀 𝑨𝑳𝑳 𝑴𝒀 𝑭𝑬𝑨𝑻𝑼𝑹𝑬𝑺...')
 FILE_CHANNEL = int(environ.get('FILE_CHANNEL', 0))
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001854325233'))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'MLZ_BOTZ_SUPPORT')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'filims_18')
 AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "True")), True)
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
@@ -135,7 +135,7 @@ MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
 INDEX_REQ_CHANNEL = int(environ.get('INDEX_REQ_CHANNEL', LOG_CHANNEL))
 FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '')).split()]
 MELCOW_NEW_USERS = is_enabled((environ.get('MELCOW_NEW_USERS', "True")), True)
-PROTECT_CONTENT = is_enabled((environ.get('PROTECT_CONTENT', "False")), False)
+PROTECT_CONTENT = is_enabled((environ.get('PROTECT_CONTENT', "True")), True)
 PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "True")), True)
 
 LOG_STR = "Current Cusomized Configurations are:-\n"
