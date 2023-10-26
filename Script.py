@@ -9,7 +9,7 @@ class script(object):
 # ⚠️ Please don't change our credits 👇🏻
 
     ABOUT_TXT = """<b>✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
-✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/TGxMATRIX>𝙼𝙰𝚃𝚁𝙸𝚇</a>
+✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/filims_18>𝙼𝙰𝚃𝚁𝙸𝚇</a>
 ✯ 𝚄𝙿𝙳𝙰𝚃𝙴𝚂: <a href=https://t.me/filims_18>𝙼𝙻𝚉_𝙱𝙾𝚃𝚉</a>
 ✯ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
 ✯ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
@@ -292,7 +292,7 @@ Name - {}
 ★Requested by</b> : {message.from_user.mention}
 """
 
-    CUSTOM_FILE_CAPTION = """<b>FILE : <code>{file_name}</code>
+    CUSTOM_FILE_CAPTION = """<b>FILE : <code> @filims_18 {file_name}</code>
     
     @filims_18</b>"""
 
