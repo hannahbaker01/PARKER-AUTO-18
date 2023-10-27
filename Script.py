@@ -292,8 +292,11 @@ Name - {}
 ★Requested by</b> : {message.from_user.mention}
 """
 
-    CUSTOM_FILE_CAPTION = """<b>FILE : <code> @filims_18 {file_name}</code>
-    
+    CUSTOM_FILE_CAPTION = """<b>FILE : <code>{file_name}</code>
+   🅈🄴🅂🅂🄰🄼🄼🄰🔞 - t.me/+YNvnIc1D1StkOTlk
+   𝙽𝙰𝚅𝙰𝚁𝙰𝚂𝙰 🔞 - t.me/+x9pRRUTMhBw2MWFk
+   kααmαrααní 🔞 - t.me/+qEnMuUz_kR1mNGVk
+
     @filims_18</b>"""
 
     RESTART_TXT = """
