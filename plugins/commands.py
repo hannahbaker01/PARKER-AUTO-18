@@ -46,12 +46,12 @@ async def start(client, message):
             InlineKeyboardButton('× ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ×', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('🔍 sᴇᴀʀᴄʜ', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('ᴏᴡɴ ɪɴғᴏ', url='https://t.me/TGxMATRIX')
+            InlineKeyboardButton('ᴏᴡɴ ɪɴғᴏ', url='https://t.me/filims_18')
             ],[
             InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help2'),
             InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
             ],[
-            InlineKeyboardButton('Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url='https://t.me/+h0-okmfsWE5hZTI1')
+            InlineKeyboardButton('Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url='https://t.me/+iq-AS-vyzwZiODJl')
          ]] 
         reply_markup = InlineKeyboardMarkup(buttons)
         m=await message.reply_sticker("CAACAgIAAxkBAAKKAAFkHAda7cEwnGhLkERsPowfgFFD2wACVBYAAtB7QUn8uVjZ80ZWKB4E") 
@@ -80,12 +80,12 @@ async def start(client, message):
             InlineKeyboardButton('× ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ×', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('🔍 sᴇᴀʀᴄʜ', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('ᴏᴡɴ ɪɴғᴏ', url='https://t.me/TGxMATRIX')
+            InlineKeyboardButton('ᴏᴡɴ ɪɴғᴏ', url='https://t.me/filims_18')
             ],[
             InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help2'),
             InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
             ],[
-            InlineKeyboardButton('Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url='https://t.me/+h0-okmfsWE5hZTI1')
+            InlineKeyboardButton('Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url='https://t.me/+iq-AS-vyzwZiODJl')
          ]] 
         reply_markup = InlineKeyboardMarkup(buttons)
         a = await message.reply_text(
