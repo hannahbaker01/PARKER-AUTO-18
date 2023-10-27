@@ -293,7 +293,8 @@ Name - {}
 """
 
     CUSTOM_FILE_CAPTION = """<b>FILE : <code>{file_name}</code>
-   🅈🄴🅂🅂🄰🄼🄼🄰🔞 - t.me/+YNvnIc1D1StkOTlk
+  
+    🅈🄴🅂🅂🄰🄼🄼🄰🔞 - t.me/+YNvnIc1D1StkOTlk
    𝙽𝙰𝚅𝙰𝚁𝙰𝚂𝙰 🔞 - t.me/+x9pRRUTMhBw2MWFk
    kααmαrααní 🔞 - t.me/+qEnMuUz_kR1mNGVk
 
